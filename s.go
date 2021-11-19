@@ -1,7 +1,5 @@
 package main
-import (
-	"fmt"
-	"os/exec")
+import ("fmt"; "os/exec")
 func main() {
   fmt.Println(" ")
 	cmd := exec.Command("ruby", "w.rb")

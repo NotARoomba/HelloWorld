@@ -16,8 +16,6 @@ namespace l {
 			processStartInfo.Arguments = "l";
 			process.StartInfo = processStartInfo;
 			process.Start();
-			//System.Diagnostics.Process.Start("/usr/bin/javac ./l.java");
-			//System.Diagnostics.Process.Start("/usr/bin/java ./l");
 		}
 	}
 }
